@@ -253,8 +253,8 @@
   {
    "title": "Living Room 3D Walkthrough",
    "type": "video",
-   "file": "/media/living-room-walkthrough.mp4",
-   "poster": "/media/living-room-walkthrough.jpg",
+   "file": "/living-room-walkthrough.mp4",
+   "poster": "/living-room-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -264,8 +264,8 @@
   {
    "title": "Bedroom & Study 3D Walkthrough",
    "type": "video",
-   "file": "/media/bedroom-study-walkthrough.mp4",
-   "poster": "/media/bedroom-study-walkthrough.jpg",
+   "file": "/bedroom-study-walkthrough.mp4",
+   "poster": "/bedroom-study-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -275,8 +275,8 @@
   {
    "title": "Café Interior 3D Walkthrough",
    "type": "video",
-   "file": "/media/cafe-interior-walkthrough.mp4",
-   "poster": "/media/cafe-interior-walkthrough.jpg",
+   "file": "/cafe-interior-walkthrough.mp4",
+   "poster": "/cafe-interior-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -286,8 +286,8 @@
   {
    "title": "Clinic Interior 3D Walkthrough",
    "type": "video",
-   "file": "/media/clinic-interior-walkthrough.mp4",
-   "poster": "/media/clinic-interior-walkthrough.jpg",
+   "file": "/clinic-interior-walkthrough.mp4",
+   "poster": "/clinic-interior-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -297,8 +297,8 @@
   {
    "title": "Living & Dining 3D Walkthrough",
    "type": "video",
-   "file": "/media/living-dining-walkthrough.mp4",
-   "poster": "/media/living-dining-walkthrough.jpg",
+   "file": "/living-dining-walkthrough.mp4",
+   "poster": "/living-dining-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -308,8 +308,8 @@
   {
    "title": "Office Interior 3D Walkthrough",
    "type": "video",
-   "file": "/media/office-interior-walkthrough.mp4",
-   "poster": "/media/office-interior-walkthrough.jpg",
+   "file": "/office-interior-walkthrough.mp4",
+   "poster": "/office-interior-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
