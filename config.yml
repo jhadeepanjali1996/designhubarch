@@ -1,0 +1,115 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# Designhubarch – Decap CMS configuration
+#
+# ⚠ BEFORE THE ADMIN PANEL WORKS you must replace the `repo:` value below with
+#   the real GitHub repository, written as  owner/repository-name
+#   (see SETUP-GUIDE). Nothing else in this file needs to be edited.
+#
+# Who can log in?  Only GitHub accounts that have WRITE access to that
+# repository. Login is handled by GitHub (OAuth), not by this file.
+# ─────────────────────────────────────────────────────────────────────────────
+backend:
+  name: github
+  repo: REPLACE-WITH-GITHUB-OWNER/REPLACE-WITH-REPOSITORY-NAME   # <-- change this
+  branch: main                                                   # must match the repo's default branch
+  # If you host the site on Netlify and use Netlify's built-in GitHub OAuth,
+  # do NOT add base_url. Add it ONLY if you run your own OAuth proxy
+  # (e.g. on Cloudflare Workers):
+  # base_url: https://YOUR-OAUTH-PROXY-DOMAIN
+  commit_messages:
+    create: 'Gallery: add item'
+    update: 'Gallery: update items'
+    delete: 'Gallery: remove item'
+    uploadMedia: 'Upload media {{path}}'
+    deleteMedia: 'Delete media {{path}}'
+
+# Where the "view site" link in the admin points.
+site_url: https://designhubarch.com
+display_url: https://designhubarch.com
+
+# Uploaded photos, videos and video cover images are all saved in this folder
+# of the repository, and are served from this address on the live website.
+# (Existing files in /img and /media keep working exactly as before.)
+media_folder: "media/uploads"
+public_folder: "/media/uploads"
+
+# Make uploaded file names web-safe (no spaces, accents or odd characters).
+slug:
+  encoding: "ascii"
+  clean_accents: true
+  sanitize_replacement: "-"
+
+locale: en
+
+collections:
+  - name: gallery
+    label: Gallery
+    files:
+      - name: gallery
+        label: "Photos & Videos"
+        file: "content/gallery.json"
+        description: >-
+          Each entry is one photo or one video. New entries go at the BOTTOM of
+          the list; the website automatically shows the newest first.
+          To remove an entry use the delete (bin) icon on it, then press Publish.
+          To hide something without deleting it, switch off "Show on website".
+        fields:
+          - label: "Gallery items"
+            name: items
+            widget: list
+            label_singular: "gallery item"
+            collapsed: true
+            summary: "{{fields.title}} · {{fields.type}} · {{fields.room}}"
+            fields:
+              - label: "Title"
+                name: title
+                widget: string
+                required: true
+                hint: "Shown under the picture, e.g. 'L-Shaped Kitchen' or 'Villa 3D Walkthrough'."
+              - label: "Type"
+                name: type
+                widget: select
+                options: ["photo", "video"]
+                default: "photo"
+                required: true
+              - label: "Photo or Video file"
+                name: file
+                widget: file
+                allow_multiple: false
+                choose_url: false
+                required: true
+                hint: "Photo: JPG / PNG / WebP — resize to about 1600 px wide first (under 1 MB). Video: MP4 (H.264), ideally under 25 MB. Use a NEW file name if you replace a file."
+              - label: "Video cover image (needed for videos)"
+                name: poster
+                widget: image
+                allow_multiple: false
+                choose_url: false
+                required: false
+                hint: "Only for videos: the still picture shown before the video plays. Leave empty for photos."
+              - label: "Services"
+                name: services
+                widget: select
+                multiple: true
+                min: 1
+                default: ["Interior Design"]
+                options: ["Interior Design", "2D & 3D Design", "Exterior Design", "Floor Planning"]
+              - label: "Category (Room)"
+                name: room
+                widget: select
+                required: true
+                options:
+                  - "Living"
+                  - "Kitchen"
+                  - "Bedroom"
+                  - "Wardrobe"
+                  - "Dining & Pooja"
+                  - "Ceiling"
+                  - "Balcony & Others"
+                  - "Exterior"
+                  - "Floor Plan"
+                  - "Commercial"
+              - label: "Show on website"
+                name: visible
+                widget: boolean
+                default: true
+                hint: "Switch off to hide this item from the website without deleting it."

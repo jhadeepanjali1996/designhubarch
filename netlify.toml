@@ -1,0 +1,4 @@
+# Netlify settings. This is a plain static site: no build step is needed.
+# (Ignored automatically if you host somewhere else.)
+[build]
+  publish = "."
