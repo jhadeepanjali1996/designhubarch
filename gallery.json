@@ -3,7 +3,7 @@
   {
    "title": "Living Room",
    "type": "photo",
-   "file": "/living.jpg",
+   "file": "living.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -13,7 +13,7 @@
   {
    "title": "Living & Kitchen",
    "type": "photo",
-   "file": "/living2.jpg",
+   "file": "living2.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -23,7 +23,7 @@
   {
    "title": "Villa Living Room",
    "type": "photo",
-   "file": "/villa-living.jpg",
+   "file": "villa-living.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -33,7 +33,7 @@
   {
    "title": "TV Unit",
    "type": "photo",
-   "file": "/tvunit.jpg",
+   "file": "tvunit.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -43,7 +43,7 @@
   {
    "title": "Entrance Bench & Shoe Unit",
    "type": "photo",
-   "file": "/entrance.jpg",
+   "file": "entrance.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -53,7 +53,7 @@
   {
    "title": "Staircase Design",
    "type": "photo",
-   "file": "/stairs.jpg",
+   "file": "stairs.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -63,7 +63,7 @@
   {
    "title": "Modular Kitchen",
    "type": "photo",
-   "file": "/kitchen.jpg",
+   "file": "kitchen.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -73,7 +73,7 @@
   {
    "title": "Kitchen – Glossy Finish",
    "type": "photo",
-   "file": "/kitchen2.jpg",
+   "file": "kitchen2.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -83,7 +83,7 @@
   {
    "title": "L-Shaped Kitchen",
    "type": "photo",
-   "file": "/kitchen3.jpg",
+   "file": "kitchen3.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -93,7 +93,7 @@
   {
    "title": "Kitchen with Backsplash",
    "type": "photo",
-   "file": "/kitchen4.jpg",
+   "file": "kitchen4.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -103,7 +103,7 @@
   {
    "title": "Kitchen Island & Bar Unit",
    "type": "photo",
-   "file": "/bar.jpg",
+   "file": "bar.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -113,7 +113,7 @@
   {
    "title": "Bedroom",
    "type": "photo",
-   "file": "/bedroom.jpg",
+   "file": "bedroom.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -123,7 +123,7 @@
   {
    "title": "Master Bedroom",
    "type": "photo",
-   "file": "/bedroom2.jpg",
+   "file": "bedroom2.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -133,7 +133,7 @@
   {
    "title": "Wardrobe",
    "type": "photo",
-   "file": "/wardrobe.jpg",
+   "file": "wardrobe.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -143,7 +143,7 @@
   {
    "title": "Wardrobe – Fluted Finish",
    "type": "photo",
-   "file": "/wardrobe2.jpg",
+   "file": "wardrobe2.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -153,7 +153,7 @@
   {
    "title": "Glass Walk-in Wardrobe",
    "type": "photo",
-   "file": "/wardrobe3.jpg",
+   "file": "wardrobe3.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -163,7 +163,7 @@
   {
    "title": "Wardrobe – Wood & Laminate",
    "type": "photo",
-   "file": "/wardrobe4.jpg",
+   "file": "wardrobe4.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -173,7 +173,7 @@
   {
    "title": "False Ceiling & Bar Unit",
    "type": "photo",
-   "file": "/ceiling.jpg",
+   "file": "ceiling.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -183,7 +183,7 @@
   {
    "title": "Villa Living & Bar Unit",
    "type": "photo",
-   "file": "/villa-bar.jpg",
+   "file": "villa-bar.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -193,7 +193,7 @@
   {
    "title": "Dining Area",
    "type": "photo",
-   "file": "/dining.jpg",
+   "file": "dining.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -203,7 +203,7 @@
   {
    "title": "Dining & Pooja Unit",
    "type": "photo",
-   "file": "/dining2.jpg",
+   "file": "dining2.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -213,7 +213,7 @@
   {
    "title": "Pooja Unit",
    "type": "photo",
-   "file": "/pooja.jpg",
+   "file": "pooja.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -223,7 +223,7 @@
   {
    "title": "Balcony Garden",
    "type": "photo",
-   "file": "/balcony.jpg",
+   "file": "balcony.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -233,7 +233,7 @@
   {
    "title": "Balcony Meditation Corner",
    "type": "photo",
-   "file": "/balcony2.jpg",
+   "file": "balcony2.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -243,7 +243,7 @@
   {
    "title": "Powder Room",
    "type": "photo",
-   "file": "/powder.jpg",
+   "file": "powder.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -253,8 +253,8 @@
   {
    "title": "Living Room 3D Walkthrough",
    "type": "video",
-   "file": "/living-room-walkthrough.mp4",
-   "poster": "/living-room-walkthrough.jpg",
+   "file": "living-room-walkthrough.mp4",
+   "poster": "living-room-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -264,8 +264,8 @@
   {
    "title": "Bedroom & Study 3D Walkthrough",
    "type": "video",
-   "file": "/bedroom-study-walkthrough.mp4",
-   "poster": "/bedroom-study-walkthrough.jpg",
+   "file": "bedroom-study-walkthrough.mp4",
+   "poster": "bedroom-study-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -275,8 +275,8 @@
   {
    "title": "Café Interior 3D Walkthrough",
    "type": "video",
-   "file": "/cafe-interior-walkthrough.mp4",
-   "poster": "/cafe-interior-walkthrough.jpg",
+   "file": "cafe-interior-walkthrough.mp4",
+   "poster": "cafe-interior-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -286,8 +286,8 @@
   {
    "title": "Clinic Interior 3D Walkthrough",
    "type": "video",
-   "file": "/clinic-interior-walkthrough.mp4",
-   "poster": "/clinic-interior-walkthrough.jpg",
+   "file": "clinic-interior-walkthrough.mp4",
+   "poster": "clinic-interior-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -297,8 +297,8 @@
   {
    "title": "Living & Dining 3D Walkthrough",
    "type": "video",
-   "file": "/living-dining-walkthrough.mp4",
-   "poster": "/living-dining-walkthrough.jpg",
+   "file": "living-dining-walkthrough.mp4",
+   "poster": "living-dining-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -308,8 +308,8 @@
   {
    "title": "Office Interior 3D Walkthrough",
    "type": "video",
-   "file": "/office-interior-walkthrough.mp4",
-   "poster": "/office-interior-walkthrough.jpg",
+   "file": "office-interior-walkthrough.mp4",
+   "poster": "office-interior-walkthrough.jpg",
    "services": [
     "Interior Design",
     "2D & 3D Design"
@@ -319,7 +319,7 @@
     {
         "title": "Modern Bedroom",
         "type": "photo",
-        "file": "/new-room.jpg",
+        "file": "new-room.jpg",
         "room": "Bedroom"
     }
  ]
