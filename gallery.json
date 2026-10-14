@@ -315,11 +315,11 @@
     "2D & 3D Design"
    ],
    "room": "Commercial"
-  }
- ],
-{
-  "title": "Modern Bedroom",
-  "type": "photo",
-  "file": "/new-room.jpg",
-  "room": "Bedroom"
-},
+  },
+    {
+        "title": "Modern Bedroom",
+        "type": "photo",
+        "file": "/new-room.jpg",
+        "room": "Bedroom"
+    }
+]
