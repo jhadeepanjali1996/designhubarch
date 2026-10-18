@@ -4,7 +4,7 @@ var $=function(i){return document.getElementById(i)},P=function(s){return (s||''
 var lb=$('lb'),all=[];
 var E=function(s){return String(s==null?'':s).replace(/[&<>"']/g,function(c){return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]})};
 function clean(l){return (l||[]).filter(function(x){return x&&x.file&&x.title&&x.visible!==false})}
-function load(cb){fetch('gallery.json')+Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){cb(clean(d.items))}).catch(function(){cb(location.protocol==='file:'?clean((window.GALLERY_FALLBACK||{}).items):[])})}
+function load(cb){fetch('gallery.json=' +Date.now()).then(function(r){if(!r.ok)throw 0;return r.json()}).then(function(d){cb(clean(d.items))}).catch(function(){cb(location.protocol==='file:'?clean((window.GALLERY_FALLBACK||{}).items):[])})}
 function card(it,i){var v=it.type==='video',im=P(v?it.poster:it.file),t=E(it.title);
 var m=(v&&!it.poster)?'<video src="'+E(P(it.file))+'#t=0.5" preload="metadata" muted playsinline></video>':'<img src="'+E(im)+'" alt="'+t+'" loading="lazy">';
 return '<button class="g" data-i="'+i+'">'+m+(v?'<b class="pl">▶</b>':'')+'<span>'+t+'</span></button>'}
